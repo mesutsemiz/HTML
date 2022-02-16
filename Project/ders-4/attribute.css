@@ -1,0 +1,30 @@
+h2[title="baslık1"] {
+    color: red;
+}
+
+p[title="paragraf1"] {
+    color:green
+}
+
+a[target="_blank"] {
+    color:pink
+}
+
+p::first-line {
+    font-size: 15px;
+}
+
+ul li {
+    background-color:olive;
+    padding :10px;
+    margin: 2px;
+    width: 300px;
+    border-radius: 20px ;
+    list-style-type: "🌹";
+    text-align:center;
+    color: white;
+}
+
+ul li::before{
+    content:"\2764";
+    color:#000;

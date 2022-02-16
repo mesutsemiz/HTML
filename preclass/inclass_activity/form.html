@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/action_page.php">
+    <div>
+        <label for="sem" style="color:blue ">Yorum</label>
+        <textarea name="mytext " id="sem"  cols="50" rows="10" placeholder="lütfen birşeyler yazınız"></textarea>
+    </div>
+    <br><br>
+    <div>
+        <label for="f1">Which one is the best F1 racing Pilot for you ? :</label>
+        <input type="text" name="formula1" id="f1" list="pilots">
+        <datalist id="pilots">
+            <option value="Michael">Michael</option>
+            <option value="David">David</option>
+            <option value="RAikonen">RAikonen</option>
+            <option value="Alonso">Alonso</option>
+            <option value="Vettel">Vettel</option>
+        </datalist>
+    </div>
+    <br><br>
+    <div>
+
+        <fieldset>
+            <legend>Personel information</legend>
+            <label for="first_name">First Name:</label>
+            <input type="text" name="first_name" id="first_name"><br><br>
+            <label for="Last_name">Last Name:</label>
+            <input type="text" name="Lassst_name" id="Last_name"><br><br>
+            <label for="yas">Age:</label>
+            <input type="Number" name="Age" id="yas" max="50" min="18"><br><br>
+            <label for="dv">Division:</label>
+            <input type="text" name="bölüm" id="dv"><br><br>
+        </fieldset>
+
+
+    </div>
+
+    <input type="submit" value="Gönder">
+    </form>
+</body>
+</html>

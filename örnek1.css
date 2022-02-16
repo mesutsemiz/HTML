@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(210, 245, 10);
+  }
+  h1 {
+    color: rgb(7, 3, 32);
+    font-size: 252%;
+    font-family: verdana;
+    text-decoration:none;
+  }
+  p {
+    color: red;
+    border: 2px solid rgb(240, 7, 201);
+    padding: 30px;
+    margin: 150px solid rgb(14, 194, 164);
+  }
+ 
